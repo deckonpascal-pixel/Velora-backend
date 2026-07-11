@@ -27,6 +27,7 @@ model Product {
   wash       String?
   badge      String?
   stock      Int         @default(100)
+  image      String?
   orderItems OrderItem[]
 }
 
